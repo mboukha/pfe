@@ -1,0 +1,16 @@
+easy_admin:
+
+    site_name: 'SEPJT' 
+
+
+    entities:
+        
+#        # List the entity class name you want to manage
+        - App\Entity\Projets
+        - App\Entity\Taches
+        - App\Entity\Ouvriers
+        - App\Entity\Materiels
+        
+        - App\Entity\User
+  
+        
