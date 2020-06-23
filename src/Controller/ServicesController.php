@@ -5,13 +5,13 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class PhotosController extends AbstractController {
+class ServicesController extends AbstractController {
 
     /**
-     * @Route("/galerie", name="galerie")
+     * @Route("/services", name="services")
      */
     public function index() {
-        return $this->render('photos/index.html.twig');
+        return $this->render('services/index.html.twig');
     }
 
 }
